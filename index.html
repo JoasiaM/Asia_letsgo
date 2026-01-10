@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <title>About Me</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
-<header>
+<header class="fade-in">
     <h1>About Me</h1>
     <p>Grafika • Fotografia • Podróże</p>
+    <button id="theme-toggle" aria-label="Zmień tryb kolorów">🌙</button>
 </header>
 
-<nav>
+<nav class="fade-in delay-1">
     <ul>
         <li><a href="#grafika">Grafika</a></li>
         <li><a href="#fotografia">Fotografia i podróże</a></li>
@@ -21,62 +28,41 @@
 
 <main>
 
-    <section id="grafika">
+    <section id="grafika" class="fade-in delay-2">
         <header>
             <h2>Grafika</h2>
         </header>
 
         <article>
-            <p>Zajmuję się grafiką cyfrową, tworząc projekty łączące estetykę z funkcjonalnością. Pracuję z kompozycją, kolorem oraz typografią, dbając o spójność wizualną i czytelny przekaz. Moje prace obejmują ilustracje, projekty graficzne oraz koncepcje wizualne.</p>
+            <p>Zajmuję się grafiką cyfrową, tworząc projekty łączące estetykę z funkcjonalnością. Pracuję z kompozycją, kolorem oraz typografią.</p>
 
             <blockquote>
                 <p>Grafika to dla mnie sposób opowiadania historii za pomocą obrazu.</p>
             </blockquote>
 
             <ul>
-                <li>Kreatywne podejście do projektów</li>
-                <li>Znajomość zasad kompozycji i koloru</li>
+                <li>Kreatywne podejście</li>
+                <li>Spójność wizualna</li>
                 <li>Dbałość o detale</li>
             </ul>
 
-            <div>
-                <figure>
-                    <img src="#" alt="Opis alternatywny pracy graficznej 1">
-                    <figcaption>Praca graficzna 1</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny pracy graficznej 2">
-                    <figcaption>Praca graficzna 2</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny pracy graficznej 3">
-                    <figcaption>Praca graficzna 3</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny pracy graficznej 4">
-                    <figcaption>Praca graficzna 4</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny pracy graficznej 5">
-                    <figcaption>Praca graficzna 5</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny pracy graficznej 6">
-                    <figcaption>Praca graficzna 6</figcaption>
-                </figure>
+            <div class="gallery">
+                <figure class="card"><img src="#" alt="Opis alternatywny pracy graficznej 1"><figcaption>Praca graficzna 1</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny pracy graficznej 2"><figcaption>Praca graficzna 2</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny pracy graficznej 3"><figcaption>Praca graficzna 3</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny pracy graficznej 4"><figcaption>Praca graficzna 4</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny pracy graficznej 5"><figcaption>Praca graficzna 5</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny pracy graficznej 6"><figcaption>Praca graficzna 6</figcaption></figure>
             </div>
         </article>
     </section>
 
-    <section id="fotografia">
-        <header>
+    <section id="fotografia" class="fade-in delay-3">
+        <article class="glass">
             <h2>Fotografia i podróże</h2>
-        </header>
 
-        <article>
-            <p>Podróże są dla mnie niewyczerpanym źródłem inspiracji. Odwiedziłem wiele krajów Azji, poznając różnorodne kultury, krajobrazy i ludzi. Fotografia pozwala mi zatrzymać te chwile i opowiadać historie miejsc, które mnie ukształtowały.</p>
+            <p>Podróże są dla mnie źródłem inspiracji. Odwiedziłem kraje Azji: Gruzję, Armenię, Iran, Kirgistan, Malezję oraz Indonezję.</p>
 
-            <p>Wśród odwiedzonych przeze mnie krajów znajdują się:</p>
             <ol>
                 <li>Gruzja</li>
                 <li>Armenia</li>
@@ -87,52 +73,36 @@
             </ol>
 
             <aside>
-                <p>Najbardziej fascynują mnie miejsca, w których natura spotyka się z lokalną tradycją.</p>
+                <p>Fotografuję miejsca, w których światło i przestrzeń tworzą emocje.</p>
             </aside>
 
-            <div>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 1">
-                    <figcaption>Fotografia 1</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 2">
-                    <figcaption>Fotografia 2</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 3">
-                    <figcaption>Fotografia 3</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 4">
-                    <figcaption>Fotografia 4</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 5">
-                    <figcaption>Fotografia 5</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 6">
-                    <figcaption>Fotografia 6</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 7">
-                    <figcaption>Fotografia 7</figcaption>
-                </figure>
-                <figure>
-                    <img src="#" alt="Opis alternatywny fotografii 8">
-                    <figcaption>Fotografia 8</figcaption>
-                </figure>
+            <div class="gallery">
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 1"><figcaption>Fotografia 1</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 2"><figcaption>Fotografia 2</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 3"><figcaption>Fotografia 3</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 4"><figcaption>Fotografia 4</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 5"><figcaption>Fotografia 5</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 6"><figcaption>Fotografia 6</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 7"><figcaption>Fotografia 7</figcaption></figure>
+                <figure class="card"><img src="#" alt="Opis alternatywny fotografii 8"><figcaption>Fotografia 8</figcaption></figure>
             </div>
         </article>
     </section>
 
 </main>
 
-<footer>
+<footer class="fade-in delay-4">
     <p>&copy; 2026 About Me</p>
-    <p>Kontakt: example@email.com</p>
+    <p>GitHub Pages • HTML + CSS</p>
 </footer>
+
+<script>
+    const toggle = document.getElementById('theme-toggle');
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+        toggle.textContent = document.body.classList.contains('dark') ? '☀️' : '🌙';
+    });
+</script>
 
 </body>
 </html>
